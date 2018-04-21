@@ -25,12 +25,8 @@
 
 #include <DHT.h>
 
-//String ssid                           = "iPhone";        // your network SSID (name)
-//String pass                           = "DS4Chase";  // your network password (use for WPA, or use as key for WEP)
-//String ssid                         = "Guests";        // your network SSID (name)
-//String pass                         = "the way out since 1954";  // your network password (use for WPA, or use as key for WEP)
-String ssid                           = "ARRIS-6D12";
-String pass                           = "2W4335100270";
+String ssid                         = "Guests";        // your network SSID (name)
+String pass                         = "the way out since 1954";  // your network password (use for WPA, or use as key for WEP)
 static const char* connectionString = "HostName=TemporaryDevHub.azure-devices.net;DeviceId=HeatSensor1;SharedAccessKey=cOl5JqrV0GrvhlDv2Kzkfq3kLDkS1qJA/weEpYATVPY=";
 int lastHour; //Records what the last hour was in order to regulate the speed of messages sent
 int timezone = 17; //Records what timezone the device is taking data from
